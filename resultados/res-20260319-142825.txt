@@ -1,0 +1,24 @@
+
+============================================================
+               INFORME FINAL DE ANÁLISIS
+============================================================
+ARCHIVO              | MATRÍCULA       | CONFIANZA  | TIEMPO
+------------------------------------------------------------
+coche3.jpg           | 3315LVYE        | 89.5%      | 2.85s
+coche6.jpg           | E4950KZK        | 98.9%      | 2.20s
+coche7.jpg           | 4757LYF         | 97.5%      | 1.92s
+coche8.jpg           | B0000A          | 87.8%      | 2.03s
+coche9.jpg           | AR023ST         | 99.7%      | 1.75s
+coches10.jpg         | S7586BCC        | 95.6%      | 6.33s
+coches10.jpg         | INQ3410         | 99.1%      | 6.33s
+coches10.jpg         | 3733LSY         | 100.0%     | 6.33s
+coches10.jpg         | 1110LRB         | 97.1%      | 6.33s
+motos1.jpg           | 688DTBN75       | 92.0%      | 7.52s
+motos1.jpg           | E3ARSSCMT292DPDC | 88.4%      | 7.52s
+motos1.jpg           | 873ZPBV9        | 90.4%      | 7.52s
+motos1.jpg           | ELDRN7892       | 72.5%      | 7.52s
+coche1.webp          | E8953DVL        | 95.9%      | 2.20s
+coche2.webp          | NHK13837        | 99.9%      | 2.30s
+coche4.webp          | CZFORSPEED      | 92.1%      | 2.35s
+============================================================
+Proceso finalizado con éxito.

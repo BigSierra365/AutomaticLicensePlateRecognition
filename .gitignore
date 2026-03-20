@@ -1,0 +1,14 @@
+# Entornos y Caché
+env/
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# Archivos de IA Pesados
+*.pt
+*.weights
+*.onnx
+
+# Exclusiones Adicionales
+main2VIDEO.py
