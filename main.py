@@ -131,6 +131,11 @@ for img_path in rutas_imagenes:
 
                         # Proceso visual para dibujar el recuadro verde y el texto sobre la imagen original
                         cv2.imshow("Plate Recorte", plate_image)
+
+                        # Cambiar modo de ventana para que la ventana se abra en primer plano
+                        cv2.setWindowProperty("Plate Recorte", cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
+                        cv2.setWindowProperty("Plate Recorte", cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_NORMAL)      
+                        
                         cv2.rectangle(image, (x1 -10, y1 -35), (x2 +10, y2-(y2 -y1)), (0, 255, 0), -1)
                         cv2.rectangle(image, (x1 , y1), (x2, y2), (0, 255, 0), 2)
                         cv2.putText(image, output_text, (x1 -7, y1 - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 0, 0), 2)
@@ -160,6 +165,9 @@ for img_path in rutas_imagenes:
 
     # Visualización del proceso en tiempo real para el usuario
     cv2.imshow("Image Analizada", imutils.resize(image, width=800))
+    # Cambiar modo de ventana para que la ventana se abra en primer plano
+    cv2.setWindowProperty("Image Analizada", cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
+    cv2.setWindowProperty("Image Analizada", cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_NORMAL)
     
     # Pausa programada para permitir la visualización antes de pasar al siguiente archivo
     tecla = cv2.waitKey(1500) & 0xFF 
@@ -207,4 +215,4 @@ ruta_completa_txt = os.path.join("resultados", nombre_archivo_txt)
 with open(ruta_completa_txt, "w", encoding="utf-8") as archivo:
     archivo.write(texto_final)
 
-print(f"✅ El informe se ha guardado correctamente en: {ruta_completa_txt}")
+print(f"El informe se ha guardado correctamente en: {ruta_completa_txt}")
